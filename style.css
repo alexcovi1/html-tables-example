@@ -207,56 +207,69 @@ table.tabella-personalizzata tbody th[scope="row"].pari {
     color: #333;
 }
 
-table.unique-monuments-table {
+table.colorful-monuments-table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
     font-size: 18px;
     text-align: left;
     background-color: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-table.unique-monuments-table caption {
+table.colorful-monuments-table caption {
     caption-side: top;
     text-align: center;
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #444;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #007BFF;
+    font-weight: bold;
 }
 
-table.unique-monuments-table th,
-table.unique-monuments-table td {
-    padding: 12px;
-    border: 1px solid #ddd;
+table.colorful-monuments-table th,
+table.colorful-monuments-table td {
+    padding: 15px;
+    border: 1px solid #ccc;
     vertical-align: top;
 }
 
-table.unique-monuments-table th {
-    background-color: #f8f8f8;
-    color: #000;
+table.colorful-monuments-table th {
+    background-color: #007BFF;
+    color: white;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
-table.unique-monuments-table td img {
+table.colorful-monuments-table td img {
     display: block;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
 }
 
-table.unique-monuments-table tr:nth-child(even) {
-    background-color: #f2f2f2;
+table.colorful-monuments-table td img:hover {
+    transform: scale(1.1);
 }
 
-table.unique-monuments-table tfoot td {
+table.colorful-monuments-table tr:nth-child(even) {
+    background-color: #f0f8ff; /* Light blue */
+}
+
+table.colorful-monuments-table tr:nth-child(odd) {
+    background-color: #e6f2ff; /* Lighter blue */
+}
+
+table.colorful-monuments-table tr:hover {
+    background-color: #d1eaff;
+    transition: background-color 0.3s ease;
+}
+
+table.colorful-monuments-table tfoot td {
     text-align: center;
     font-weight: bold;
-    background-color: #eaeaea;
-    padding: 15px;
-}
-.caption3 {
-    caption-side: bottom;
-    margin: 14px 0px;
-    font-size: 14px;
-    font-style: italic;
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
 }
