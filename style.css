@@ -154,30 +154,30 @@ table.tabella-personalizzata thead th:first-child {
 
 /* Righe dispari (colore blu) */
 table.tabella-personalizzata tbody tr:nth-child(odd) {
-    background-color: #93ccff; /* Blu */
+    background-color: #a8d5fd; /* Blu */
     color: #000000; /* Testo bianco per contrasto */
 }
 
 /* Righe pari (colore azzurro chiaro) */
 table.tabella-personalizzata tbody tr:nth-child(even) {
-    background-color: #b7e9fa; /* Azzurro chiaro */
+    background-color: #97d7ff; /* Azzurro chiaro */
     color: #000000; /* Testo nero */
 }
 
 /* Colore specifico per le celle <th> nell'intestazione */
 table.tabella-personalizzata thead th {
-    background-color: #b7e9fa; /* Colore di sfondo giallo per le celle <th> */
+    background-color: #97d7ff; /* Colore di sfondo giallo per le celle <th> */
     color: #000000; /* Testo nero */
 }
 /* Colore specifico per le celle <th> laterali */
 table.tabella-personalizzata tbody th[scope="row"].disp {
-    background-color: #93ccff; /* Colore di sfondo arancione per le celle <th> laterali */
+    background-color: #a8d5fd; /* Colore di sfondo arancione per le celle <th> laterali */
     color: #000000; /* Testo bianco */
 }
 
 /* Colore specifico per le celle <th> laterali */
 table.tabella-personalizzata tbody th[scope="row"].pari {
-    background-color: #b7e9fa; /* Colore di sfondo arancione per le celle <th> laterali */
+    background-color: #97d7ff; /* Colore di sfondo arancione per le celle <th> laterali */
     color: #000000; /* Testo bianco */
 }
 
