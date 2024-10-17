@@ -36,7 +36,6 @@ table {
     max-width: 100%;
     white-space: nowrap;
     background-color: white;
-    border-radius: 15px;
     overflow: hidden;
 }
 
@@ -112,6 +111,10 @@ table tr {
 }
 
 /* Stili per la tabella personalizzata */
+
+h2.container2{
+    color: #000000;
+}
 table.tabella-personalizzata {
     width: 100%;
     border-collapse: collapse;
@@ -134,7 +137,7 @@ table.tabella-personalizzata th {
 }
 
 table.tabella-personalizzata th[scope="row"] {
-    width: 200px;
+    width: 350px;
     /* Imposta una larghezza maggiore per la colonna a sinistra */
     text-align: left;
 }
@@ -151,17 +154,37 @@ table.tabella-personalizzata thead th:first-child {
 
 /* Righe dispari (colore blu) */
 table.tabella-personalizzata tbody tr:nth-child(odd) {
-    background-color: #409fd6; /* Blu */
-    color: #ffffff; /* Testo bianco per contrasto */
+    background-color: #93ccff; /* Blu */
+    color: #000000; /* Testo bianco per contrasto */
 }
 
 /* Righe pari (colore azzurro chiaro) */
 table.tabella-personalizzata tbody tr:nth-child(even) {
-    background-color: #40bae2; /* Azzurro chiaro */
+    background-color: #b7e9fa; /* Azzurro chiaro */
     color: #000000; /* Testo nero */
 }
 
+/* Colore specifico per le celle <th> nell'intestazione */
+table.tabella-personalizzata thead th {
+    background-color: #b7e9fa; /* Colore di sfondo giallo per le celle <th> */
+    color: #000000; /* Testo nero */
+}
+/* Colore specifico per le celle <th> laterali */
+table.tabella-personalizzata tbody th[scope="row"].disp {
+    background-color: #93ccff; /* Colore di sfondo arancione per le celle <th> laterali */
+    color: #000000; /* Testo bianco */
+}
 
+/* Colore specifico per le celle <th> laterali */
+table.tabella-personalizzata tbody th[scope="row"].pari {
+    background-color: #b7e9fa; /* Colore di sfondo arancione per le celle <th> laterali */
+    color: #000000; /* Testo bianco */
+}
+
+.h22{
+    color: #000000;
+    font-size: 12px;
+}
 #empty{
     background-color: white;
 }
