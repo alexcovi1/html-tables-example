@@ -28,7 +28,7 @@ body {
 }
 
 table {
-    
+
     font-size: 16px;
     border: none;
     border-collapse: collapse;
@@ -36,9 +36,9 @@ table {
     max-width: 100%;
     white-space: nowrap;
     background-color: white;
-    border-radius: 15px; 
+    border-radius: 15px;
     overflow: hidden;
-  }
+}
 
 
 
@@ -48,7 +48,7 @@ h2 {
     text-align: center;
     font-size: 18px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1px solid;
     color: #757575;
 }
 
@@ -69,7 +69,7 @@ td {
     padding: 12px;
     border: 2px solid #dddddd;
     text-align: center;
-  
+
 }
 
 th {
@@ -80,19 +80,93 @@ th {
 
 
 table td {
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid solid #ffffff;
     color: #757575;
-  }
-  
-  /* Color Table Headers */
-  table thead th {
+}
+
+/* Color Table Headers */
+table thead th {
     color: #ffffff;
     background: #0080f1;
-  }
-  
- 
-  /* Color Even Rows */
-  table tr {
+}
+
+
+/* Color Even Rows */
+table tr {
     background: #ffffff;
-  }
-  
+}
+
+
+/* fine prima tabella */
+
+
+.container2 {
+    display: block;
+    margin: 5%;
+    height: 100%;
+    padding: 5%;
+    background-color:white;
+    border:3px solid black;
+    
+
+}
+
+/* Stili per la tabella personalizzata */
+table.tabella-personalizzata {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table.tabella-personalizzata th,
+table.tabella-personalizzata td {
+    padding: 12px;
+    border: 1px solid #046aa1;
+}
+
+table.tabella-personalizzata th {
+    background-color: #f2f2f2;
+    color: #000000;
+    font-size: 15px;
+    
+}
+
+table.tabella-personalizzata th[scope="row"] {
+    width: 200px;
+    /* Imposta una larghezza maggiore per la colonna a sinistra */
+    text-align: left;
+}
+
+table.tabella-personalizzata thead th:first-child {
+    width: 0;
+    /* Rimuove visivamente la prima cella vuota (angolo in alto a sinistra) */
+    border: none;
+    /* Rimuove il bordo della prima cella vuota */
+}
+
+
+/* Alternanza di colori per le righe */
+
+/* Righe dispari (colore blu) */
+table.tabella-personalizzata tbody tr:nth-child(odd) {
+    background-color: #409fd6; /* Blu */
+    color: #ffffff; /* Testo bianco per contrasto */
+}
+
+/* Righe pari (colore azzurro chiaro) */
+table.tabella-personalizzata tbody tr:nth-child(even) {
+    background-color: #40bae2; /* Azzurro chiaro */
+    color: #000000; /* Testo nero */
+}
+
+
+#empty{
+    background-color: white;
+}
+.container-links {
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+}
