@@ -28,7 +28,7 @@ body {
 }
 
 table {
-    border-radius: 5px;
+    
     font-size: 16px;
     border: none;
     border-collapse: collapse;
@@ -36,6 +36,8 @@ table {
     max-width: 100%;
     white-space: nowrap;
     background-color: white;
+    border-radius: 15px; 
+    overflow: hidden;
   }
 
 
@@ -65,29 +67,32 @@ table {
 th,
 td {
     padding: 12px;
-    border: 1px solid #dddddd;
+    border: 2px solid #dddddd;
     text-align: center;
   
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
+    color: #0080f1;
 }
 
 
+
 table td {
-    border-right: 1px solid #f8f8f8;
+    border-right: 1px solid #ffffff;
+    color: #757575;
   }
   
   /* Color Table Headers */
   table thead th {
     color: #ffffff;
-    background: #0043fd;
+    background: #0080f1;
   }
   
  
   /* Color Even Rows */
   table tr {
-    background: #f8f8f8;
+    background: #ffffff;
   }
   
